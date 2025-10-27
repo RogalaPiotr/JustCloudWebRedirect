@@ -1,0 +1,11 @@
+# robots.txt for justcloud.pl redirect
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://justcloud.pl/sitemap.xml
+Sitemap: https://web.justcloud.pl/sitemap.xml
+Sitemap: https://blog.justcloud.pl/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1

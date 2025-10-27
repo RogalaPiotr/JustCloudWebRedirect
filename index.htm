@@ -1,15 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-	<title>JustCloud.pl Redirect</title>
-	<meta http-equiv="refresh" content="1;url=https://web.justcloud.pl" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Primary Meta Tags -->
+	<title>JustCloud.pl - Chmura Microsoft Azure | Ekspert Cloud Computing</title>
+	<meta name="title" content="JustCloud.pl - Chmura Microsoft Azure | Ekspert Cloud Computing">
+	<meta name="description" content="JustCloud.pl - Specjalizujemy się w rozwiązaniach Microsoft Azure, chmurze obliczeniowej, migracji do chmury i zarządzaniu infrastrukturą cloud. Doświadczony Microsoft Azure Expert.">
+	<meta name="keywords" content="Microsoft Azure, chmura obliczeniowa, cloud computing, Azure expert, migracja do chmury, infrastruktura cloud, JustCloud">
+	<meta name="author" content="JustCloud.pl">
+	<meta name="robots" content="index, follow">
+	
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://web.justcloud.pl">
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://justcloud.pl">
+	<meta property="og:title" content="JustCloud.pl - Chmura Microsoft Azure | Ekspert Cloud Computing">
+	<meta property="og:description" content="Specjalizujemy się w rozwiązaniach Microsoft Azure, chmurze obliczeniowej, migracji do chmury i zarządzaniu infrastrukturą cloud.">
+	<meta property="og:image" content="https://justcloud.pl/img/justcloud-social-card.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="JustCloud.pl - Microsoft Azure Expert">
+	<meta property="og:locale" content="pl_PL">
+	<meta property="og:site_name" content="JustCloud.pl">
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://justcloud.pl">
+	<meta name="twitter:title" content="JustCloud.pl - Chmura Microsoft Azure | Ekspert Cloud Computing">
+	<meta name="twitter:description" content="Specjalizujemy się w rozwiązaniach Microsoft Azure, chmurze obliczeniowej, migracji do chmury i zarządzaniu infrastrukturą cloud.">
+	<meta name="twitter:image" content="https://justcloud.pl/img/justcloud-social-card.png">
+	<meta name="twitter:image:alt" content="JustCloud.pl - Microsoft Azure Expert">
+	
+	<!-- Alternate language versions -->
+	<link rel="alternate" hreflang="pl" href="https://web.justcloud.pl">
+	<link rel="alternate" hreflang="x-default" href="https://web.justcloud.pl">
+	
+	<!-- DNS Prefetch & Preconnect for faster loading -->
+	<link rel="dns-prefetch" href="https://web.justcloud.pl">
+	<link rel="preconnect" href="https://web.justcloud.pl">
+	<link rel="preconnect" href="https://blog.justcloud.pl">
+	
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="shortcut icon" href="/img/favicon.ico">
+	<link rel="manifest" href="/img/site.webmanifest">
+	
+	<!-- Redirect - Meta Refresh as fallback -->
+	<meta http-equiv="refresh" content="0;url=https://web.justcloud.pl">
+	
+	<!-- Structured Data - JSON-LD -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "JustCloud.pl",
+		"url": "https://web.justcloud.pl",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://justcloud.pl/img/logo.png",
+			"width": "512",
+			"height": "512"
+		},
+		"image": "https://justcloud.pl/img/justcloud-social-card.png",
+		"sameAs": [
+			"https://blog.justcloud.pl",
+			"https://web.justcloud.pl"
+		],
+		"description": "Specjalizujemy się w rozwiązaniach Microsoft Azure, chmurze obliczeniowej, migracji do chmury i zarządzaniu infrastrukturą cloud.",
+		"areaServed": "PL",
+		"knowsAbout": ["Microsoft Azure", "Cloud Computing", "Azure Migration", "Cloud Infrastructure"]
+	}
+	</script>
+	
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #ffffff;
+			padding: 20px;
+		}
+		.container {
+			text-align: center;
+			max-width: 600px;
+			background: rgba(255, 255, 255, 0.1);
+			backdrop-filter: blur(10px);
+			padding: 40px;
+			border-radius: 20px;
+			box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+		}
+		h1 {
+			color: #47b5ed;
+			font-size: 2.5em;
+			margin-bottom: 20px;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+		}
+		p {
+			font-size: 1.1em;
+			line-height: 1.6;
+			margin-bottom: 20px;
+		}
+		.spinner {
+			border: 4px solid rgba(255, 255, 255, 0.3);
+			border-top: 4px solid #47b5ed;
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			animation: spin 1s linear infinite;
+			margin: 20px auto;
+		}
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+		a {
+			color: #47b5ed;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		.links {
+			margin-top: 30px;
+			padding-top: 20px;
+			border-top: 1px solid rgba(255, 255, 255, 0.3);
+		}
+		.links a {
+			display: inline-block;
+			margin: 10px;
+			padding: 10px 20px;
+			background: rgba(71, 181, 237, 0.2);
+			border-radius: 5px;
+			transition: all 0.3s ease;
+		}
+		.links a:hover {
+			background: rgba(71, 181, 237, 0.4);
+			transform: translateY(-2px);
+		}
+	</style>
+	
+	<!-- JavaScript Redirect (primary method) -->
+	<script>
+		// Immediate redirect
+		window.location.replace("https://web.justcloud.pl");
+	</script>
 </head>
 <body>
-	<h1 style="text-align:center;color:#47b5ed;">JustCloud.pl</h1>
-	<p style="text-align:center;">
-		If your browser supports Refresh,
-		you'll be redirected to https://web.justcloud.pl
-		Homepage, in one "1" second.
-	</p>
+	<div class="container">
+		<h1>JustCloud.pl</h1>
+		<div class="spinner"></div>
+		<p>
+			Przekierowywanie do głównej strony...<br>
+			<em>Redirecting to the main website...</em>
+		</p>
+		<p>
+			Jeśli nie zostałeś automatycznie przekierowany, kliknij:<br>
+			<a href="https://web.justcloud.pl">web.justcloud.pl</a>
+		</p>
+		
+		<div class="links">
+			<a href="https://web.justcloud.pl">Strona Główna</a>
+			<a href="https://blog.justcloud.pl">Blog</a>
+		</div>
+		
+		<noscript>
+			<p><strong>Twoja przeglądarka nie obsługuje JavaScript.</strong></p>
+			<p>Kliknij <a href="https://web.justcloud.pl">tutaj</a>, aby przejść do strony głównej.</p>
+		</noscript>
+	</div>
 </body>
 </html>
