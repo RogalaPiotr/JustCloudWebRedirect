@@ -1,9 +1,11 @@
-# robots.txt for justcloud.pl redirect
+# robots.txt for justcloud.pl redirect domain
+# This domain redirects to web.justcloud.pl
+
 User-agent: *
+# Allow crawling to discover the redirect
 Allow: /
 
-# Sitemap location
-Sitemap: https://justcloud.pl/sitemap.xml
+# Sitemaps for actual content (not this redirect domain)
 Sitemap: https://web.justcloud.pl/sitemap.xml
 Sitemap: https://blog.justcloud.pl/sitemap.xml
 

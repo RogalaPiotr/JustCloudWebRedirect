@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <!-- Main redirect page -->
+  <!-- This is a redirect domain - actual content is on web.justcloud.pl and blog.justcloud.pl -->
+  <!-- Google should NOT index this domain, only the target domains -->
+  
+  <!-- Redirect page - low priority, informational only -->
   <url>
     <loc>https://justcloud.pl/</loc>
-    <lastmod>2025-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://web.justcloud.pl/"/>
-  </url>
-  
-  <!-- Reference to main website -->
-  <url>
-    <loc>https://web.justcloud.pl/</loc>
-    <lastmod>2025-10-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <!-- Reference to blog -->
-  <url>
-    <loc>https://blog.justcloud.pl/</loc>
-    <lastmod>2025-10-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
   </url>
   
 </urlset>
